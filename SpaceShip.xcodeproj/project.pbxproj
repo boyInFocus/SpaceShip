@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0B64A6222635CF4003FCD1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B64A6122635CF4003FCD1A /* AppDelegate.m */; };
+		D0B64A6422635CF4003FCD1A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D0B64A6322635CF4003FCD1A /* GameScene.sks */; };
+		D0B64A6622635CF5003FCD1A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D0B64A6522635CF5003FCD1A /* Actions.sks */; };
+		D0B64A6922635CF5003FCD1A /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B64A6822635CF5003FCD1A /* GameScene.m */; };
+		D0B64A6C22635CF5003FCD1A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B64A6B22635CF5003FCD1A /* GameViewController.m */; };
+		D0B64A6F22635CF5003FCD1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B64A6D22635CF5003FCD1A /* Main.storyboard */; };
+		D0B64A7122635CFA003FCD1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B64A7022635CFA003FCD1A /* Assets.xcassets */; };
+		D0B64A7422635CFA003FCD1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B64A7222635CFA003FCD1A /* LaunchScreen.storyboard */; };
+		D0B64A7722635CFB003FCD1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B64A7622635CFB003FCD1A /* main.m */; };
+		D0B64A8122635CFB003FCD1A /* SpaceShipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B64A8022635CFB003FCD1A /* SpaceShipTests.m */; };
+		D0B64A8C22635CFB003FCD1A /* SpaceShipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B64A8B22635CFB003FCD1A /* SpaceShipUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0B64A7D22635CFB003FCD1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B64A5522635CF4003FCD1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B64A5C22635CF4003FCD1A;
+			remoteInfo = SpaceShip;
+		};
+		D0B64A8822635CFB003FCD1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B64A5522635CF4003FCD1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B64A5C22635CF4003FCD1A;
+			remoteInfo = SpaceShip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0B64A5D22635CF4003FCD1A /* SpaceShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B64A6022635CF4003FCD1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0B64A6122635CF4003FCD1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0B64A6322635CF4003FCD1A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D0B64A6522635CF5003FCD1A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		D0B64A6722635CF5003FCD1A /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		D0B64A6822635CF5003FCD1A /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		D0B64A6A22635CF5003FCD1A /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D0B64A6B22635CF5003FCD1A /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D0B64A6E22635CF5003FCD1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0B64A7022635CFA003FCD1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0B64A7322635CFA003FCD1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0B64A7522635CFB003FCD1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B64A7622635CFB003FCD1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0B64A7C22635CFB003FCD1A /* SpaceShipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceShipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B64A8022635CFB003FCD1A /* SpaceShipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceShipTests.m; sourceTree = "<group>"; };
+		D0B64A8222635CFB003FCD1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B64A8722635CFB003FCD1A /* SpaceShipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceShipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B64A8B22635CFB003FCD1A /* SpaceShipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceShipUITests.m; sourceTree = "<group>"; };
+		D0B64A8D22635CFB003FCD1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B64A5A22635CF4003FCD1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B64A7922635CFB003FCD1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B64A8422635CFB003FCD1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0B64A5422635CF4003FCD1A = {
+			isa = PBXGroup;
+			children = (
+				D0B64A5F22635CF4003FCD1A /* SpaceShip */,
+				D0B64A7F22635CFB003FCD1A /* SpaceShipTests */,
+				D0B64A8A22635CFB003FCD1A /* SpaceShipUITests */,
+				D0B64A5E22635CF4003FCD1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B64A5E22635CF4003FCD1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B64A5D22635CF4003FCD1A /* SpaceShip.app */,
+				D0B64A7C22635CFB003FCD1A /* SpaceShipTests.xctest */,
+				D0B64A8722635CFB003FCD1A /* SpaceShipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B64A5F22635CF4003FCD1A /* SpaceShip */ = {
+			isa = PBXGroup;
+			children = (
+				D0B64A6022635CF4003FCD1A /* AppDelegate.h */,
+				D0B64A6122635CF4003FCD1A /* AppDelegate.m */,
+				D0B64A6322635CF4003FCD1A /* GameScene.sks */,
+				D0B64A6522635CF5003FCD1A /* Actions.sks */,
+				D0B64A6722635CF5003FCD1A /* GameScene.h */,
+				D0B64A6822635CF5003FCD1A /* GameScene.m */,
+				D0B64A6A22635CF5003FCD1A /* GameViewController.h */,
+				D0B64A6B22635CF5003FCD1A /* GameViewController.m */,
+				D0B64A6D22635CF5003FCD1A /* Main.storyboard */,
+				D0B64A7022635CFA003FCD1A /* Assets.xcassets */,
+				D0B64A7222635CFA003FCD1A /* LaunchScreen.storyboard */,
+				D0B64A7522635CFB003FCD1A /* Info.plist */,
+				D0B64A7622635CFB003FCD1A /* main.m */,
+			);
+			path = SpaceShip;
+			sourceTree = "<group>";
+		};
+		D0B64A7F22635CFB003FCD1A /* SpaceShipTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0B64A8022635CFB003FCD1A /* SpaceShipTests.m */,
+				D0B64A8222635CFB003FCD1A /* Info.plist */,
+			);
+			path = SpaceShipTests;
+			sourceTree = "<group>";
+		};
+		D0B64A8A22635CFB003FCD1A /* SpaceShipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0B64A8B22635CFB003FCD1A /* SpaceShipUITests.m */,
+				D0B64A8D22635CFB003FCD1A /* Info.plist */,
+			);
+			path = SpaceShipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B64A5C22635CF4003FCD1A /* SpaceShip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B64A9022635CFB003FCD1A /* Build configuration list for PBXNativeTarget "SpaceShip" */;
+			buildPhases = (
+				D0B64A5922635CF4003FCD1A /* Sources */,
+				D0B64A5A22635CF4003FCD1A /* Frameworks */,
+				D0B64A5B22635CF4003FCD1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceShip;
+			productName = SpaceShip;
+			productReference = D0B64A5D22635CF4003FCD1A /* SpaceShip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0B64A7B22635CFB003FCD1A /* SpaceShipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B64A9322635CFB003FCD1A /* Build configuration list for PBXNativeTarget "SpaceShipTests" */;
+			buildPhases = (
+				D0B64A7822635CFB003FCD1A /* Sources */,
+				D0B64A7922635CFB003FCD1A /* Frameworks */,
+				D0B64A7A22635CFB003FCD1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B64A7E22635CFB003FCD1A /* PBXTargetDependency */,
+			);
+			name = SpaceShipTests;
+			productName = SpaceShipTests;
+			productReference = D0B64A7C22635CFB003FCD1A /* SpaceShipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0B64A8622635CFB003FCD1A /* SpaceShipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B64A9622635CFB003FCD1A /* Build configuration list for PBXNativeTarget "SpaceShipUITests" */;
+			buildPhases = (
+				D0B64A8322635CFB003FCD1A /* Sources */,
+				D0B64A8422635CFB003FCD1A /* Frameworks */,
+				D0B64A8522635CFB003FCD1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B64A8922635CFB003FCD1A /* PBXTargetDependency */,
+			);
+			name = SpaceShipUITests;
+			productName = SpaceShipUITests;
+			productReference = D0B64A8722635CFB003FCD1A /* SpaceShipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B64A5522635CF4003FCD1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = corman;
+				TargetAttributes = {
+					D0B64A5C22635CF4003FCD1A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D0B64A7B22635CFB003FCD1A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D0B64A5C22635CF4003FCD1A;
+					};
+					D0B64A8622635CFB003FCD1A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D0B64A5C22635CF4003FCD1A;
+					};
+				};
+			};
+			buildConfigurationList = D0B64A5822635CF4003FCD1A /* Build configuration list for PBXProject "SpaceShip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0B64A5422635CF4003FCD1A;
+			productRefGroup = D0B64A5E22635CF4003FCD1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B64A5C22635CF4003FCD1A /* SpaceShip */,
+				D0B64A7B22635CFB003FCD1A /* SpaceShipTests */,
+				D0B64A8622635CFB003FCD1A /* SpaceShipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B64A5B22635CF4003FCD1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B64A6F22635CF5003FCD1A /* Main.storyboard in Resources */,
+				D0B64A6422635CF4003FCD1A /* GameScene.sks in Resources */,
+				D0B64A7122635CFA003FCD1A /* Assets.xcassets in Resources */,
+				D0B64A7422635CFA003FCD1A /* LaunchScreen.storyboard in Resources */,
+				D0B64A6622635CF5003FCD1A /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B64A7A22635CFB003FCD1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B64A8522635CFB003FCD1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B64A5922635CF4003FCD1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B64A6922635CF5003FCD1A /* GameScene.m in Sources */,
+				D0B64A6C22635CF5003FCD1A /* GameViewController.m in Sources */,
+				D0B64A7722635CFB003FCD1A /* main.m in Sources */,
+				D0B64A6222635CF4003FCD1A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B64A7822635CFB003FCD1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B64A8122635CFB003FCD1A /* SpaceShipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B64A8322635CFB003FCD1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B64A8C22635CFB003FCD1A /* SpaceShipUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0B64A7E22635CFB003FCD1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B64A5C22635CF4003FCD1A /* SpaceShip */;
+			targetProxy = D0B64A7D22635CFB003FCD1A /* PBXContainerItemProxy */;
+		};
+		D0B64A8922635CFB003FCD1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B64A5C22635CF4003FCD1A /* SpaceShip */;
+			targetProxy = D0B64A8822635CFB003FCD1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0B64A6D22635CF5003FCD1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B64A6E22635CF5003FCD1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0B64A7222635CFA003FCD1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B64A7322635CFA003FCD1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0B64A8E22635CFB003FCD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0B64A8F22635CFB003FCD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B64A9122635CFB003FCD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXBR48T8MV;
+				INFOPLIST_FILE = SpaceShip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.corman.SpaceShip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0B64A9222635CFB003FCD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXBR48T8MV;
+				INFOPLIST_FILE = SpaceShip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.corman.SpaceShip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0B64A9422635CFB003FCD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXBR48T8MV;
+				INFOPLIST_FILE = SpaceShipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.corman.SpaceShipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceShip.app/SpaceShip";
+			};
+			name = Debug;
+		};
+		D0B64A9522635CFB003FCD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXBR48T8MV;
+				INFOPLIST_FILE = SpaceShipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.corman.SpaceShipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceShip.app/SpaceShip";
+			};
+			name = Release;
+		};
+		D0B64A9722635CFB003FCD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXBR48T8MV;
+				INFOPLIST_FILE = SpaceShipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.corman.SpaceShipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceShip;
+			};
+			name = Debug;
+		};
+		D0B64A9822635CFB003FCD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXBR48T8MV;
+				INFOPLIST_FILE = SpaceShipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.corman.SpaceShipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceShip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B64A5822635CF4003FCD1A /* Build configuration list for PBXProject "SpaceShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B64A8E22635CFB003FCD1A /* Debug */,
+				D0B64A8F22635CFB003FCD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B64A9022635CFB003FCD1A /* Build configuration list for PBXNativeTarget "SpaceShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B64A9122635CFB003FCD1A /* Debug */,
+				D0B64A9222635CFB003FCD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B64A9322635CFB003FCD1A /* Build configuration list for PBXNativeTarget "SpaceShipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B64A9422635CFB003FCD1A /* Debug */,
+				D0B64A9522635CFB003FCD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B64A9622635CFB003FCD1A /* Build configuration list for PBXNativeTarget "SpaceShipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B64A9722635CFB003FCD1A /* Debug */,
+				D0B64A9822635CFB003FCD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0B64A5522635CF4003FCD1A /* Project object */;
+}
